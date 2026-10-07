@@ -1,0 +1,105 @@
+/* Set a base font size for the body */
+body {
+    background-color: #90e0ef;
+    color: #023047;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;                                      
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 24px 40px;
+
+}
+/* Style the navigation bar */
+nav{
+    background-color: #0077b6;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+/* Style the navigation links */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+/* Add hover effect to navigation links */
+nav a:hover {
+    text-decoration: underline;
+    color: #90e0ef;
+}
+/* Style the headings */
+h1{
+    color: #03045e;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0.5em 0;
+    letter-spacing: 1px;
+}
+h2{
+    color: #415a77;
+    font-size: 2rem;
+    border-bottom: 3px solid #e0e1dd;
+    padding-bottom: 6px;
+    margin-top: 1.6em;
+
+}
+h3{
+    color: #7b2cbf;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 1.2em;
+}
+/* Style paragraphs and lists */
+p{
+    color: #003049;
+    line-height: 1.8;
+    margin: 0 0 1em;      
+    padding: 4px 0;
+}
+/* Style unordered lists */
+ul{
+    list-style-type: square;
+    padding-left: 20px;
+    margin-bottom: 1em;
+    line-height: 1.8;
+}
+ul li::marker{
+  color: #c0392b;
+}
+
+li{
+    margin-bottom: 1em;
+    color: #03045e;;
+}
+
+ol{
+    list-style-type: decimal;
+    padding-left: 32px;
+    margin-bottom: 1em;
+    line-height: 1.8;
+}
+
+ol li::marker{
+  color: #6a4c93;
+  font-weight: bold;
+}
+/* Style pictures */
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid #ffffff;
+    margin: 20px 0 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 4px;
+    background-color: #ffffff;
+
+}
+/* Style paragraphs that follow images */
+img+p{
+   font-size: 0.95rem;
+    color: #555;
+    font-style: italic;
+}
